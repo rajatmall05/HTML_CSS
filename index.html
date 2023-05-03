@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wave">
+            <img src="image/bg.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Types</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+            <img src="image/logo.png" alt="">
+        </nav>
+        <div class="main-content">
+            <div class="pista-img">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="image/img1.png" alt=""></div>
+                      <div class="swiper-slide"><img src="image/img2.png" alt=""></div>
+                      <div class="swiper-slide"><img src="image/img3.png" alt=""></div>
+                    </div>
+                  </div>
+            </div>
+            <div class="main-text">
+                <h1>The Pista's</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quas.</p>
+                <button>Know More</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="box">
+                <div class="image">
+                    <img src="image/img4.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>100% Organic</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="image/img5.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Inexpensive</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div><div class="box">
+                <div class="image">
+                    <img src="image/img6.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Healthy</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="social-media">
+            <span class="bi bi-facebook"></span>
+            <span class="bi bi-instagram"></span>
+            <span class="bi bi-snapchat"></span>
+            <span class="bi bi-twitter"></span>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          });
+      </script>
+</body>
+</html>
